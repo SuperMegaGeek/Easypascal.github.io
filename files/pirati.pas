@@ -1,0 +1,13 @@
+var
+t,s,m,n,d:integer;
+k,x,w:real;
+begin
+readln(k);
+readln(t,s);
+readln(m,n);
+read(d);
+x:=d/((n-s)+k*(m-t));
+w:=x*k;
+writeln(w:0:2);
+write(x:0:2);
+end.
